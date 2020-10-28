@@ -58,7 +58,7 @@ const animationTimeline = () => {
       },
       "-=1"
     )
-    .from(".three", 0.7, {
+    .from(".three", 1.7, {
       opacity: 0,
       y: 10
       // scale: 0.7
@@ -72,7 +72,7 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-    .from(".four", 0.7, {
+    .from(".four", 1, {
       scale: 0.2,
       opacity: 0
     })
@@ -171,16 +171,16 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      3,
       {
-        opacity: 0.9,
+        opacity: 1,
         y: 1400
       },
       {
         opacity: 1,
         y: -1000
       },
-      0.2
+      0.5
     )
     .from(
       ".lydia-dp",
@@ -223,7 +223,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "rgb(21, 161, 237)",
         ease: Expo.easeOut
       },
       0.1,
