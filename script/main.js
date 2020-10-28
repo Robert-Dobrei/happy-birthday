@@ -180,7 +180,7 @@ const animationTimeline = () => {
         opacity: 1,
         y: -1000
       },
-      0.5
+      0.2
     )
     .from(
       ".lydia-dp",
