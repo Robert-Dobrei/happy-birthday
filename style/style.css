@@ -95,7 +95,7 @@ body {
 }
 
 .idea-3 strong {
-  padding: 3px 5px;
+  padding: 3px 4px;
   border-radius: 3px;
   display: inline-block;
 }
@@ -298,4 +298,7 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+#caciula{
+  transform: rotate(-29deg ) translate(-20px, -20px) scale(1.2, 1.2) ;
 }
