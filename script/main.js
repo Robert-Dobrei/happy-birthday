@@ -58,7 +58,7 @@ const animationTimeline = () => {
       },
       "-=1"
     )
-    .from(".three", 1.7, {
+    .from(".three", 0.7, {
       opacity: 0,
       y: 10
       // scale: 0.7
@@ -72,7 +72,7 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-    .from(".four", 1, {
+    .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
     })
@@ -173,7 +173,7 @@ const animationTimeline = () => {
       ".baloons img",
       3,
       {
-        opacity: 1,
+        opacity: 0.9,
         y: 1400
       },
       {
